@@ -2,6 +2,7 @@
 node_modules/
 
 src/uploads/
+uploads/
 
 # Build output
 dist/
@@ -48,7 +49,13 @@ prisma/*.db-journal
 temp/
 
 # Docker
-.dockerignore
 docker-compose.override.yml
 
-package-lock.json
+# Doc
+/*.md
+!README.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+
+# Documentation
+docs/

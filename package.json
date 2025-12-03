@@ -1,17 +1,18 @@
 {
-  "name": "ts-express-template",
+  "name": "codiit",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "scripts": {
+  "main": "dist/server.js",
+   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --runInBand",
     "dev": "tsx watch src/server.ts",
     "build": "tsc && tsc-alias",
-    "start": "node dist/app.js",
+    "start": "node dist/server.js",
     "lint": "eslint src --ext .ts",
-    "format": "prettier --write \"src/**/*.ts\"",
-    "typecheck": "tsc --noEmit",
     "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --check \"src/**/*.ts\"",
+    "format:fix": "prettier --write \"src/**/*.ts\"",
+    "typecheck": "tsc --noEmit",
     "prepare": "husky"
   },
   "keywords": [],
@@ -25,6 +26,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@types/express": "^5.0.5",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.9.2",
