@@ -1,7 +1,7 @@
 import type { Prisma } from '@prisma/client';
 import type { OffsetQuery, CreateInquiryBody, UpdateInquiryBody } from './inquiry.dto.js';
 import type { InquiryRepository } from './inquiry.repository.js';
-import { NotFoundError, ForbiddenError } from '../../common/utils/errors.js';
+import { NotFoundError, ForbiddenError } from '@/common/utils/errors.js';
 
 export class InquiryService {
   constructor(private inquiryRepository: InquiryRepository) {}

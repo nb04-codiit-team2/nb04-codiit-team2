@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import { asyncHandler } from '../../common/middlewares/asyncHandler.js';
-import { validate } from '../../common/middlewares/validate.middleware.js';
+import { asyncHandler } from '@/common/middlewares/asyncHandler.js';
+import { validate } from '@/common/middlewares/validate.middleware.js';
 import { inquiryController } from './inquiry.container.js';
-import { mockAuthMiddleware } from '../../common/middlewares/mock.auth.middleware.js';
+import { mockAuthMiddleware } from '@/common/middlewares/mock.auth.middleware.js';
 import {
   idSchema,
   productIdSchema,

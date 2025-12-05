@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
 import type { InquiryService } from './inquiry.service.js';
-import { UnauthorizedError } from '../../common/utils/errors.js';
+import { UnauthorizedError } from '@/common/utils/errors.js';
 
 export class InquiryController {
   constructor(private inquiryService: InquiryService) {}
