@@ -309,7 +309,7 @@ model Inquiry {
     productId String
     product   Product @relation(fields: [productId], references: [id])
 
-    replies Reply[]
+    reply Reply?
 
     @@map("inquiries")
 }
@@ -323,7 +323,7 @@ model Reply {
     // FK
     userId    String
     user      User    @relation(fields: [userId], references: [id])
-    inquiryId String
+    inquiryId String  @unique
     inquiry   Inquiry @relation(fields: [inquiryId], references: [id], onDelete: Cascade)
 
     @@map("replies")
