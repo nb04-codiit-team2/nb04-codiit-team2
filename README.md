@@ -1196,7 +1196,7 @@ npx prisma migrate reset
 | <img src="https://github.com/Park-DaSeul.png" width="80" height="80"/> | 박다슬 | 백엔드 | [@Park-DaSeul](https://github.com/Park-DaSeul) | Notification, Inquiry |
 | <img src="https://github.com/stoneME2.png" width="80" height="80"/> | 김혜연 | 백엔드 | [@stoneME2](https://github.com/stoneME2) | User, Auth |
 | <img src="https://github.com/InsipidPie1229.png" width="80" height="80"/> | 홍준기 | 백엔드 | [@InsipidPie1229](https://github.com/InsipidPie1229) | Product, Review |
-| <img src="https://github.com/winnie4869.png" width="80" height="80"/> | 이하영 | 백엔드 | [@winnie4869](https://github.com/winnie4869) | S3, Dashboard, Metadata |
+| <img src="https://github.com/winnie4869.png" width="80" height="80"/> | 이하영 | 백엔드 | [@hayo-oung](https://github.com/hayo-oung) | S3, Dashboard, Metadata |
 
 ---
 
